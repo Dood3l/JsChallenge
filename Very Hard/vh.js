@@ -1,8 +1,8 @@
 // Create a simple calculator that prompts the user for a number, an operator (either +, -, * or /) and another number, and then uses the functions created in the hard challenge to output the value in sentence form.
 
-var a = prompt("Enter the first number");
+var a = Number(prompt("Enter the first number"));
 var operator = prompt("Which operator would you like to use? /, *, -, +");
-var b  = prompt("Enter the second number");
+var b  = Number(prompt("Enter the second number"));
 
 function add(a, b) {
     return (a + b);
